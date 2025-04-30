@@ -10,7 +10,7 @@ export default function StudentDashboard() {
 
 
  useEffect(() => {
-   fetch("https://script.google.com/macros/s/AKfycbyhA3qkhN8VdBbN_kCSwdUAVE6L8kEHUmNLwtyyq_MWo5kZdML2jThe9jkiZS7l0WxS/exec")
+   fetch("https://script.google.com/macros/s/AKfycbzAqolKEg2dXw_jLJjQBgAoN0BTPt9cVLXYX6EqQlNJnjhLS3gZ1p8mdVVKlFWkFc2xWg/exec")
      .then((res) => res.json())
      .then((data) => {
        setNotes(data);
